@@ -6,7 +6,7 @@
         "mapframe": {
             "size": {
                 "height": 500,
-                "width": 800
+                "width": 1000
             },
             "map": {
                 "urlgeomserv": "http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer",
