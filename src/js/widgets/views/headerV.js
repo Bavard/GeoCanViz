@@ -40,8 +40,8 @@
 			// add tools button
 			if (config.tools) {
                 node += '<button id="btnTools' + mapid + '" class="gcviz-button gcviz-tools-button" tabindex="0" data-bind="click: toolsClick, tooltip: { content: tpTools }"><img class="gcviz-img-button" data-bind="attr: { src: imgTools }"></img></button>';
-                toolbarSize = parseInt($mapElem.mapframe.size.height, 10) - 105;
-                $mapElem.find('.gcviz-head').after('<div class="gcviz-tbcontainer gcviz-hidden" style="max-height:' + toolbarSize.toString() + 'px!important;"><div class="gcviz-tbholder"></div></div>');
+                toolbarSize = parseInt($mapElem.mapframe.size.height, 10) - 100;
+                $mapElem.find('.gcviz-head').after('<div class="gcviz-tbcontainer gcviz-hidden" style="max-height:' + toolbarSize.toString() + 'px!important;"><div class="gcviz-tbholder" style="max-height:' + toolbarSize.toString() + 'px!important;"></div></div>');
 			}
 
 			// add inset button if inset are present
