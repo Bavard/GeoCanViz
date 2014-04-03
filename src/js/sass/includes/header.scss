@@ -1,7 +1,7 @@
 @import "gcviz-mixin";
 
 .gcviz-head {
-	@include app-head-foot;
+	@include app-head;
 	/*@include app-gradiant;*/
 	
 	.gcviz-head-title {
